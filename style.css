@@ -1,0 +1,627 @@
+body{margin-top:0;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color:rgb(220, 236, 250);
+    margin-top:0px ;
+ z-index: 1;
+
+}
+.logo{
+    float: left;
+    margin-left:50px;
+   
+}
+
+.nav ul{
+    list-style: none;
+    position: absolute;
+    right: 200px;
+    top: 0;
+
+}.nav ul li{
+    float: left;
+    padding: 10px;
+
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    margin-right: ;
+
+}
+.nav ul li a:hover{
+    color: rgb(57, 109, 91);
+} 
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: #0d0d0d;
+    float: right;
+    line-height: 70px;
+    margin-right: 10%;
+    margin-left:90%;
+  
+
+}
+#check{
+    display: none;
+  
+
+}
+/*section start*/
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 760px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+
+}
+.half1, .half2{
+    width: 50%;
+    
+
+
+}
+.half1{
+    margin-left: 130px;
+    margin-top: 130px;
+}
+.half2{
+    padding-right: 160px;
+
+}
+.half2 img{
+    width: 100%;
+    height: auto;
+    box-shadow: 20px 0px 20px 30px rgba(0,0,0,0.5);
+
+
+    
+}
+.half1 h4 {
+    font-weight:normal;
+}
+.half1 h1{
+font-size: 50px ;
+
+}
+.half1 p{
+    color:#7F7977
+}
+.half1 input{
+    background-color: #7B9DFE;
+    padding: 12px 40px;
+    color: #FFFFFF;
+    outline: none;
+    border: solid #7B9DFE;
+    cursor: pointer;
+
+
+}
+.half1 input:hover{
+box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+transition: all 0.5s ease-in 0.1s;
+outline: none;
+}
+.section2{
+    width: 100%;
+    height: 665px;
+    background-color: #FFFFFF;
+ display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    .section2 .half4{
+        width: 40%;
+        margin: 0 auto;
+
+    }
+    .section2 img{
+        height: auto;
+        width: 90%;
+        box-shadow: 40px 0px 40px 30px rgba(0,0,0,0.5);
+        
+        
+        };
+        .section2 .half3{
+            padding: 150px;
+        }
+        .half4 h4{
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+        .half4 h1{
+            font-size: 40px;
+            text-transform:uppercase ;
+
+        }
+        .half4 input{
+            background-color: #7B9DFE;
+            padding: 10px 40px ;
+            outline: none;
+            color:#FFFFFF;
+            border: solid #7B9DFE;
+            text-transform:uppercase;
+
+
+
+        }
+        .half4 p{
+            color:#7F7977;
+            width: 80%;
+        }
+        .half4 input:hover{
+            box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+            transition: all 0.5s ease-in 0.1s;
+        }
+        .section3{
+            width: 100%;
+           height: 650px;
+           margin: 0 auto;
+           text-align: center;
+        }
+        
+        .section3 .My h1{
+            font-size: 35px;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .section3 .My p{
+            width: 700px;
+           
+            text-align: center;
+            color: #bbb0b0;
+            margin:0 auto;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+        }
+        .survice{
+         width: 100%;
+         margin: 0 auto;
+         margin-top: 40px;
+        }
+        .srv1, .srv2{
+            width: 100%;
+            overflow: hidden;
+        }
+        .srv1 div, .srv2 div{
+       width: 30%;
+            float: left;
+            padding: 5px;
+          margin-left: 20px;
+
+        }
+        .survice i{
+            width: 30px;
+            height: auto;
+            padding: 20px;
+            font-size: 45px;
+        }
+        .survice h1{
+            font-size: 20px;
+            font-family:"Poppins", sans-serif; ;
+        }
+        .srv1 p, .srv2 p{
+            color: #aca4a2;
+            font-family:'Times New Roman', Times, serif;
+        }
+        
+        .srv1 div:hover{
+            background-color: #757988;
+            border-radius: 10%;
+         color: #FFFFFF;}
+        .srv2 div:hover{
+            background-color:  #757988;
+            border-radius: 10%;
+            color: #FFFFFF;
+        }
+        .srv1 div p:hover{
+            color:#F9F9FF
+        }
+        .srv2 div p:hover{
+            color:#F9F9FF
+        }
+        .section4{
+            width: 100%;
+            height: 300px;
+            background-color: #73A5FD;
+        }
+        .section4 div{
+            float: left;
+            position: relative;
+            top:100px;
+            left: 200px;
+            width: 20%;
+            text-align: center;
+        }
+        .section4 div h1{
+            color: #F9F9FF;
+            font-size: 40px;
+        }
+        .section4 div p{
+            color: #F9F9FF;
+            line-height: 0px;
+        }
+         /*section4 end*/
+         /*section5 start*/
+        .section5{
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .section5 .text{
+            text-align: center;
+        }
+        .section5 .text h1{
+            font-size: 35px;
+            color: rgba(0,0,0,0.9);
+        }
+        .section5 .text p{
+            color:#9c9a99;
+            margin-top: -20px;
+            margin-bottom: 30px;
+        }
+        .section5 .imgg{
+            width: 90%;
+            height: auto;
+            flex-wrap: wrap;
+            display: flex;
+       
+            justify-content: space-around;
+            margin: 0 auto;
+            
+            }
+            .section5 .imgg div{
+                width: 340px;
+                height: 339px;
+                padding-bottom: 80px;
+                text-align: center;}
+                .section5 h1{
+                    font-size: 20px;
+
+                }
+                .section5 p{
+                    font-size:15px ;
+                    color: #565656;
+                    line-height:0 ;
+                }
+                .section5 figure{
+                    background:#5f7eb4;
+                    width: 340px;
+                    height: 339px;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    border-radius: 3px;
+
+                }
+                .section5 figure img:hover{
+                    opacity: 0.3;
+                    transition: all .3s ease-in-out;
+                 }
+                 .section6 {
+                    width: 100%;
+                    height: 700px;                   
+                 }
+                 .section6 .text4{
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                 }
+                 .section6 .text4 h1{
+                    font-size: 35px;
+                    color: #0d0d0d;
+                 }
+                 .section6 .text4 p{
+                    color: #8e8d8d;
+                 }
+                 .section6 .card{
+                    width: 75%;
+                    height: auto;
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 0 auto;
+
+                 }
+                 .section6 .card1{
+                    width: 300px;
+                    height: 550px;
+                    text-align: center;
+                    background-color: #f5ece9;
+                    border:1px solid rgb(146, 135, 135)
+                 }
+                 .section6 .card1 input{
+                    outline: none;
+                    background-color: #73A5FD;
+                    color: white;
+                    padding: 10px 70px;
+                    border: 1px solid rgb(44, 43, 43);
+                    cursor: pointer;
+                    font-size: 20px;
+                    font-weight: bold;
+                 }
+                 .section6 .card1:hover{
+                    background-color: #6BB1FD;
+                    color: #f7f4f4;
+                    transition: all ease-in 0.25s;
+                    border: 1px solid rgba(130,147, 255, 0.05);
+                    transform: scale(1.05);
+                    box-shadow:0 8px 12px 0 #565656;
+                    
+                 }
+                 .section6 .card1 input:hover{
+                    background-color: rgb(240, 237, 233);
+                    color: black;
+                 }
+                 /* section6 end*/
+                 /*start footer */
+                 footer{
+                    background-color: #373737;
+                    color: #f5f3f3;
+                    width: 100%;
+                    margin-top: 100px;
+                    height:400px;
+                    position: absolute;
+                }
+                footer .foot{
+                    display: flex;
+                width: 100%;
+                    justify-content: space-around;
+                    margin-top: 120px;
+                    margin:  0 auto;
+                 
+                    
+
+                }
+                footer .foot .foot1{
+                    width: 500px;
+                    height: auto;
+                    margin-top: 120px;
+                    margin-left: 100px;
+            
+                    
+                }
+                footer .foot .foot1 p{
+                 
+                    color: rgba(255, 255, 255, 0.5);
+                  
+                    
+                }
+                footer .foot .foot1 input{
+                    padding: 10px 80px 10px 10px ;
+                    border: none;
+                    outline: none;
+                  
+                   
+                                   }
+            footer .foot .foot1 button{
+                padding: 10px 15px;
+                border: none;
+                color: #f7f4f4;
+                outline: none;
+                background-color: #6BB1FD;
+                cursor: pointer;
+
+            }
+            
+            footer .foot .foot1 i{
+                font-size: 20px;
+                padding: 10px 10px ;
+                cursor: pointer;
+            }
+            footer .foot .foot1 i:hover{
+                color: #6BB1FD;
+            }
+            @media(max-width:768px){
+                header{
+                    width: 100%;
+                    height: auto;
+                   margin-top: -150px;
+                }
+                header .logo{
+                    margin-left: 30px;
+                    padding: 20px;
+                }
+                .checkbtn{
+                    display: block;
+                 margin-left: auto;
+                  margin-top: 0px;
+                  padding: 0;
+                }
+                header .nav ul{
+                    position: fixed;
+                    width: 100%;
+                    height: 100vh;
+                    background:#FFFFFF;
+                    top:54px;
+                    left: -200%;
+                    transition: all .1s;
+                }
+                header .nav ul li{
+                    line-height: 30px;
+                    clear: both;
+                    margin-top: 15px;
+
+                }
+                #check:checked ~ ul{
+                    left: 0;
+                }
+                .section1{
+                    width: 100%;
+                     height: auto;
+                    display: block;}
+                    .half1{
+                       padding: 0;
+                        margin: auto;
+                        
+                    }
+                    .half1 h4{
+                   font-size: 15px;
+                    margin-top:150px;  }
+                    .half1 h1{
+                        font-size: 30px;
+                    }
+                    .half p{
+                          width: 100%;
+                          height: auto;
+                        margin: auto;}
+                        .half2 img{
+                      width: 100%;
+                    margin-left: 100px;
+                    margin-right: auto;
+                      height: auto;
+                      margin-top: 40px;
+                      padding: 30px 30px;
+                        } 
+                        .section2{
+                            width: 100%;
+                            height: 100vh;
+                            position: relative;
+                            top: 150px;
+                            display: block;
+                        }
+                        .section2 img{
+                            position: relative;
+                            right: 20px;
+                            left: 20px;
+
+                        }
+                    .section2 .half3{
+                        width: 100%;
+                    }
+                    .section2 h4{
+                        font-family: 12px;
+                        color: #0d0d0d;
+                    }
+                    .section2 h1{
+                        font-size: 30px;
+                        color: #0d0d0d;
+                    }
+                    .section2 p{
+                        font-size: 15px;
+                        color: #0d0d0d;
+                          }
+                          .section3{
+                            width: 100;
+                            height: auto;
+                            position: relative;
+                            top: 300px;
+                          }
+                          .My h1{
+                            font-size: 30px;
+                            color: #0d0d0d;
+                          }
+                          .section3 .My p{
+                            width:80%;
+                            align-items: center;
+                          }
+                        .srv1 div, .srv2 div{
+                           position: relative;
+                            clear: left;
+                            width: 80%;
+                            height: auto;
+                        }
+                        .srv1 div p, .srv2 div p{
+                            width: 80%;
+                            height: auto;
+                        }
+                        .section4{
+                            width: 100%;
+                            height: 100vh;
+                            position: relative;
+                            top:500px;
+                        }
+                        .section4 div{
+                            clear:left;
+                            line-height: 0.5;
+
+                          }
+                          .section4 p{
+                        
+                              width: 200px;
+                            text-align: center;
+                            margin-left: -40px;}
+                        
+                         
+                        
+                        
+                          .section5{
+                            width: 100%;
+                            height: auto;
+                            top: 500px;
+                            position: relative;
+
+                          }
+                          .section6{
+                            width: 100%;
+                            height: auto;
+                            top: 500px;
+                            position: relative;
+
+                          }
+                          .section6 .text4 h1{
+                        font-size: 35px;
+                          }
+                          .section6 .text4 p{
+                            width: 80%;
+                            margin: auto;
+                          }
+                          .section6 .card{
+                            display: block;
+                            position: relative;
+                            width: 100%;
+                            height: 100vh;
+                            left: 50px;
+                            
+                          }
+                          .section6 .card .card1{
+                            margin-top: 100px;
+                          }
+                          footer {
+                          width: 100%;
+                          height: 100vh;
+                          position: relative;
+                          top: 110em;
+
+                          }
+                          footer .foot{
+                            width: 100%;
+                            display: block;
+                            top: 100px;
+                          }
+                          footer .foot .foot1 p{
+                          width: 60%;
+                          height: auto;
+
+                          }
+                          footer .foot .foot1 h1{
+                            text-align: center;
+                          }
+                          
+                    }
+                          
+
+
+            
+       
+
+
+
+
+
+
+
+
+
+
