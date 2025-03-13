@@ -423,6 +423,9 @@ outline: none;
             footer .foot .foot1 i:hover{
                 color: #6BB1FD;
             }
+            .foot1 input{
+                width: 50px;
+            }
             @media(max-width:768px){
                 header{
                     width: 100%;
@@ -608,6 +611,9 @@ outline: none;
                           footer .foot .foot1 h1{
                             text-align: center;
                           }
+                          .foot1 input{
+                            width: 50px;
+                        }
                           
                     }
                           
